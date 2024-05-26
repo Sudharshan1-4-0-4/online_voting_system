@@ -1,0 +1,101 @@
+###
+
+POST http://localhost:4001/register/
+Content-Type: application/json
+
+{   
+    "voter_name":"pratap",
+    "voter_id":"pratap",
+    "is_voted": "false"
+}
+
+
+###
+
+POST http://localhost:4001/login/
+Content-Type: application/json
+
+{
+    "voter_name":"pratap",
+    "voter_id": "pratap"
+}
+
+###
+
+POST http://localhost:4001/adminLogin/
+Content-Type: application/json
+
+{
+    "name":"siddu",
+    "password": "siddu"
+}
+
+
+###
+
+POST http://localhost:4001/addcandidates/
+Content-Type: application/json
+
+{
+    "candidate_name":"nagaraju",
+    "candidate_party": "FFF",
+    "candidate_symbol":"lkjfadla",
+    "count":0
+}
+
+# ###
+# GET https://user-credientials.onrender.com/users/
+
+
+
+# ###
+# POST https://user-credientials.onrender.com/login/
+# Content-Type: application/json
+
+# {
+#     "name":"rahul",
+#     "password": "rahu1l"
+# }
+
+# ###
+# POST https://user-credientials.onrender.com/register/
+# Content-Type: application/json
+
+# {   
+#     "name":"rahu",
+#     "phone":"7225847527",
+#     "email": "rahul@456",
+#     "password": "rahu"
+    
+# }
+
+###
+DELETE http://localhost:4001/voter/21/
+
+###
+DELETE http://localhost:4001/candidate/13/
+###
+
+
+
+PUT http://localhost:4001/update/
+Content-Type: application/json
+
+{
+    "candidate_id": 4,
+    "voter_name" : "kaira",
+    "voter_id": "kaira"
+}
+###
+
+GET http://localhost:4001/candidates/
+
+###
+
+GET http://localhost:4001/results/
+###
+
+GET http://localhost:4001/voter/
+
+###
+PUT http://localhost:4001/updatevoter/

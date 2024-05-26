@@ -1,0 +1,53 @@
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.candidate-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin: 40px;
+    
+}
+.course-container11{
+    text-align: center;
+    padding: 20px;
+    margin-top: 70px;
+}
+.heading12{
+    text-align: center;
+}
+.vote{
+    display: flex;
+    justify-content: space-around;
+}
+.input-field {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+    .input-field:hover{
+        border-color: aqua;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+.btn {
+    background-color: green;
+    padding:10px 10px 10px 10px;
+    border-radius: 10px;
+    color: white;
+    transition: o.3s;
+}
+.btn:hover{
+    background-color: greenyellow;
+
+}
+.btn:active{
+    motion: 0cqh;
+
+}

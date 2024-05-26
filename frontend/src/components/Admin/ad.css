@@ -1,0 +1,21 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("https://t4.ftcdn.net/jpg/04/07/74/11/360_F_407741127_eZXxBH1BUCLHjxHNkfprktSQE5E8FLrj.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.btn-container {
+    display: flex;
+    flex-direction: column;
+
+}
+.btn{
+    padding:10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    margin: 15px;
+}

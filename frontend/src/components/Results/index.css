@@ -1,0 +1,21 @@
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.candidate-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin: 40px;
+    
+}
+.course-container11{
+    text-align: center;
+    padding: 20px;
+    margin-top: 70px;
+}
+.heading12{
+    text-align: center;
+}

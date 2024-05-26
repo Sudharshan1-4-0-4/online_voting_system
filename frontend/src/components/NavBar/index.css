@@ -1,0 +1,37 @@
+.align{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    height: 80px;
+    background-color: rgb(73, 71, 71);
+}
+.item{
+    margin: 20px;
+    color: azure;
+}
+
+a {
+    color: white;
+}
+ a:hover{
+    color: red;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
